@@ -11,8 +11,10 @@ namespace SOLID_Demo
         static void Main(string[] args)
         {
             StandardMessages.WelcomeMessage();
+            Person user = PersonDataCapture.Capture();
 
             StandardMessages.EndApplication();
         }
+
     }
 }
