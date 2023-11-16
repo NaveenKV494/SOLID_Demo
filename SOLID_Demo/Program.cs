@@ -20,6 +20,7 @@ namespace SOLID_Demo
                 StandardMessages.EndApplication();
                 return;
             }
+            AccountGenerator.CreateAccount(user);
 
             StandardMessages.EndApplication();
         }
