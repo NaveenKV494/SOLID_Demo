@@ -6,14 +6,6 @@ using System.Threading.Tasks;
 
 namespace SOLID_Demo
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-
-    namespace ConsoleUI
-    {
         public class StandardMessages
         {
             public static void WelcomeMessage()
@@ -32,5 +24,5 @@ namespace SOLID_Demo
                 Console.WriteLine($"You did not give us a valid {fieldName}!");
             }
         }
-    }
 }
+
